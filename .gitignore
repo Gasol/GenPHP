@@ -1,4 +1,4 @@
 .onion
-build
 .DS_Store
+build
 tests/root
