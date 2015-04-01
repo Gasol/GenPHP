@@ -14,10 +14,10 @@ class Application extends CLIApp
 
     function init()
     {
-        $this->registerCommand('new');
-        $this->registerCommand('list');
-        $this->registerCommand('init');
-        $this->registerCommand('install');
+        $this->addCommand('new');
+        $this->addCommand('list');
+        $this->addCommand('init');
+        $this->addCommand('install');
         parent::init();
     }
 
