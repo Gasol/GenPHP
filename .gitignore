@@ -1,4 +1,5 @@
 .onion
 .DS_Store
+/vendor
 build
 tests/root
