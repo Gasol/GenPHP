@@ -13,8 +13,8 @@
         "corneltek/universal": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "GenPHP": "src"
+        "psr-4": {
+            "GenPHP\\": "src"
         }
     },
     "version": "1.3.1"
